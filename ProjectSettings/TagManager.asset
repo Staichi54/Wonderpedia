@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - piso
+  - jugador
+  - pared
+  - puerta
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - piso
+  - Fondo
+  - Objs
+  - Jugador
+  - extras
+  - ui
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fondo
+    uniqueID: 851785989
+    locked: 0
+  - name: Objs
+    uniqueID: 900872475
+    locked: 0
+  - name: Jugador
+    uniqueID: 1912382809
+    locked: 0
+  - name: extras
+    uniqueID: 2800318329
+    locked: 0
+  - name: ui
+    uniqueID: 2113577955
+    locked: 0
+  - name: holaYchao
+    uniqueID: 2857078261
+    locked: 0
