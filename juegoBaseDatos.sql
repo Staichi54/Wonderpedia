@@ -1,4 +1,5 @@
 CREATE DATABASE Wonderpedia;
+
 GO
 
 USE Wonderpedia;
@@ -65,7 +66,7 @@ BEGIN
     INSERT INTO HistorialLogros (UsuarioId, Modulo)
     SELECT 
         i.Id,
-        'InglÈs'
+        'Ingl√©s'
     FROM inserted i
     INNER JOIN deleted d ON i.Id = d.Id
     WHERE d.FinalizarIngles = 0 
@@ -74,7 +75,7 @@ BEGIN
     INSERT INTO HistorialLogros (UsuarioId, Modulo)
     SELECT 
         i.Id,
-        'Matem·ticas'
+        'Matem√°ticas'
     FROM inserted i
     INNER JOIN deleted d ON i.Id = d.Id
     WHERE d.FinalizarMates = 0 
